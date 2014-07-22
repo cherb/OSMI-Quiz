@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OSMI-Quiz</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="login">Anmelden</string>
+    <string name="training">Training</string>
+    <string name="logoFHB">Logo FHB</string>
+
+    <string name="online">Online Spiel</string>
+    <string name="special">Gewinnspiel</string>
+    <string name="ranking">Hans Mustermann</string>
+
+    <string name="einstellungen">Einstellungen</string>
+
+</resources>
