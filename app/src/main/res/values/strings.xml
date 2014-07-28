@@ -12,5 +12,17 @@
     <string name="ranking">Hans Mustermann</string>
 
     <string name="einstellungen">Einstellungen</string>
+    <string name="name">Name:</string>
+    <string name="name2">Mustermann</string>
+    <string name="vorname">Vorname:</string>
+    <string name="vorname2">Hans</string>
+    <string name="mail">E-Mail</string>
+    <string name="mail2">Hans.Mustermann@abc.de</string>
+    <string name="passwort">Passwort</string>
+    <string name="passwort2">Geheim</string>
+    <string name="passwort3">Geheim</string>
+    <string name="submit">Speichern</string>
+    <string name="cancel">abbrechen</string>
+    <string name="delete">Löschen</string>
 
 </resources>

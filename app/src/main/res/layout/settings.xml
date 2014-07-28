@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="#ff2200"
+    android:clickable="false">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/einstellungen"
+        android:id="@+id/einstellungen"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignRight="@+id/name2"
+        android:layout_alignEnd="@+id/name2" />
+
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:id="@+id/name"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="150dp" />
+
+    <TextView
+        android:background="#ffffff"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:text="@string/name2"
+        android:id="@+id/name2"
+        android:layout_alignTop="@+id/name"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/vorname"
+        android:id="@+id/vorname"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:background="#ffffff"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:text="@string/vorname2"
+        android:id="@+id/vorname2"
+        android:layout_alignTop="@+id/vorname"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/mail"
+        android:id="@+id/mail"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/vorname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:background="#ffffff"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:text="@string/mail2"
+        android:id="@+id/mail2"
+        android:layout_alignTop="@+id/mail"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/passwort"
+        android:id="@+id/passwort"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/mail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:background="#ffffff"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/passwort2"
+        android:id="@+id/passwort2"
+        android:layout_alignTop="@+id/passwort"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView" />
+
+    <TextView
+        android:background="#ffffff"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/passwort3"
+        android:id="@+id/passwort3"
+        android:layout_alignTop="@+id/passwort"
+        android:layout_toRightOf="@+id/passwort2"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:background="#ffffff"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:id="@+id/submit"
+        android:layout_below="@+id/passwort"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="120dp" />
+
+    <Button
+        android:background="#ffffff"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:id="@+id/cancel"
+        android:layout_below="@+id/passwort"
+        android:layout_alignTop="@+id/submit"
+        android:layout_toRightOf="@+id/submit"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:background="#ffffff"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:id="@+id/delete"
+        android:layout_below="@+id/passwort"
+        android:layout_alignTop="@+id/cancel"
+        android:layout_toRightOf="@+id/cancel"
+        android:layout_marginLeft="20dp"/>
+
+
+</RelativeLayout>
