@@ -25,4 +25,12 @@
     <string name="cancel">abbrechen</string>
     <string name="delete">Löschen</string>
 
+    <string name="gameheadline">Spiel</string>
+    <string name="quest">Frage:</string>
+    <string name="quest2">Was ist eine dummy Frage? Was ist eine dummy Frage? Was ist eine dummy Frage?</string>
+    <string name="answerA2">Eine Dummy Antwort</string>
+    <string name="answerB2">Zweite Dummy Antwort</string>
+    <string name="answerC2">Dritte Dummy Antwort</string>
+    <string name="answerD2">Vierte Dummy Antwort</string>
+
 </resources>

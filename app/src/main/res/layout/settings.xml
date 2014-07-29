@@ -25,13 +25,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="45sp"
         android:text="@string/einstellungen"
         android:id="@+id/einstellungen"
         android:textColor="#ffffff"
         android:layout_alignTop="@+id/imageView"
-        android:layout_alignRight="@+id/name2"
-        android:layout_alignEnd="@+id/name2" />
+        android:layout_centerHorizontal="true"/>
 
 
     <TextView
@@ -43,7 +42,7 @@
         android:layout_below="@+id/imageView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="150dp" />
+        android:layout_marginTop="100dp" />
 
     <TextView
         android:background="#ffffff"
