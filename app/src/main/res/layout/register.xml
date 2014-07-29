@@ -134,9 +134,10 @@
         android:layout_height="wrap_content"
         android:text="@string/cancel"
         android:id="@+id/cancel"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/passwort2"
-        android:layout_marginTop="200dp"/>
+        android:layout_marginTop="151dp"
+        android:layout_below="@+id/passwort2"
+        android:layout_alignLeft="@+id/passwort2"
+        android:layout_alignStart="@+id/passwort2" />
 
     <Button
         android:background="#ffffff"
@@ -144,8 +145,8 @@
         android:layout_height="wrap_content"
         android:text="@string/register"
         android:id="@+id/register"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/cancel"
-        android:layout_marginTop="50dp"/>
+        android:layout_alignTop="@+id/cancel"
+        android:layout_alignLeft="@+id/passwort3"
+        android:layout_alignStart="@+id/passwort3" />
 
 </RelativeLayout>
