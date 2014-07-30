@@ -25,6 +25,8 @@
     <string name="cancel">abbrechen</string>
     <string name="delete">Löschen</string>
 
+    <string name="register">Registrieren</string>
+
     <string name="gameheadline">Spiel</string>
     <string name="quest">Frage:</string>
     <string name="quest2">Was ist eine dummy Frage? Was ist eine dummy Frage? Was ist eine dummy Frage?</string>

@@ -29,8 +29,12 @@
         android:layout_below="@+id/logoFHB"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:background="#ffffff"
-        android:text="@string/login" />
+        android:background="@drawable/button"
+        android:text="@string/login"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5" />
 
     <Button
         android:id="@+id/training1"
@@ -40,7 +44,10 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/login"
         android:layout_marginTop="58dp"
-        android:background="#ffffff"
-        android:text="@string/training" />
+        android:background="@drawable/button"
+        android:text="@string/training"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5" />
 </RelativeLayout>
-
