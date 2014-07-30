@@ -1,42 +1,20 @@
 package com.example.Herb.C.Ullmann.F.osmi_quiz;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 
 /**
  * Created by Fabian Ullmann & Christian Herb on 30.07.14.
  */
-
-
-public class StartActivity extends Activity {
+public class MainActivity extends Activity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate (Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_start);
+        setContentView(R.layout.activity_main);
 
-//Login Button
-        Button login = (Button) findViewById(R.id.login);
-        login.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View view){
-                Intent main = new Intent(view.getContext(),MainActivity.class);
-                startActivityForResult(main, 0);
-            }
-        });
-
-//Training Button
-        Button training1 = (Button) findViewById(R.id.training1);
-        training1.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View view){
-                Intent training = new Intent(view.getContext(),TrainingActivity.class);
-                startActivityForResult(training, 0);
-            }
-        });
     }
 
     @Override

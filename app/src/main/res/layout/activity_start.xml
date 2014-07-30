@@ -46,8 +46,5 @@
         android:layout_marginTop="58dp"
         android:background="@drawable/button"
         android:text="@string/training"
-        android:shadowColor="#A8A8A8"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="5" />
+        />
 </RelativeLayout>
