@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="#ff2200"
+    android:clickable="false">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
+
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="monospace"
+        android:textSize="45sp"
+        android:text="@string/gameheadline"
+        android:id="@+id/gameheadline"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:layout_width="80dp"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/quest"
+            android:id="@+id/quest"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/quest2"
+            android:id="@+id/quest2"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/quest"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="A:"
+            android:id="@+id/answerA"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/quest2"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/answerA2"
+            android:id="@+id/answerA2"
+            android:layout_toRightOf="@id/answerA"
+            android:layout_below="@id/quest2"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="B:"
+            android:id="@+id/answerB"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/answerA2"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/answerB2"
+            android:id="@+id/answerB2"
+            android:layout_toRightOf="@id/answerA"
+            android:layout_below="@id/answerA2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="C:"
+            android:id="@+id/answerC"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/answerB2"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/answerC2"
+            android:id="@+id/answerC2"
+            android:layout_toRightOf="@id/answerA"
+            android:layout_below="@id/answerB2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="D:"
+            android:id="@+id/answerD"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/answerC2"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/answerD2"
+            android:id="@+id/answerD22"
+            android:layout_toRightOf="@id/answerA"
+            android:layout_below="@id/answerC2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"/>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:background="#ffffff"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="A"
+        android:id="@+id/buttonA"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView" />
+
+    <Button
+        android:background="#ffffff"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="B"
+        android:id="@+id/buttonB"
+        android:layout_alignTop="@+id/buttonA"
+        android:layout_toRightOf="@+id/gameheadline"
+        android:layout_toEndOf="@+id/gameheadline" />
+
+    <Button
+        android:background="#ffffff"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="C"
+        android:id="@+id/buttonC"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/buttonA"
+        android:layout_alignLeft="@+id/buttonA"
+        android:layout_alignStart="@+id/buttonA" />
+
+    <Button
+        android:background="#ffffff"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="D"
+        android:id="@+id/buttonD"
+        android:layout_alignTop="@+id/buttonC"
+        android:layout_alignLeft="@+id/buttonB"
+        android:layout_alignStart="@+id/buttonB" />
+
+
+</RelativeLayout>

@@ -1,6 +1,7 @@
 package com.example.Herb.C.Ullmann.F.osmi_quiz;
 
 import android.app.Activity;
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -22,10 +23,14 @@ public class StartActivity extends Activity {
 
 //Login Button
         Button login = (Button) findViewById(R.id.login);
+        final Button login2 = (Button) findViewById(R.id.login2);
+        final Dialog anmeldeDialog = new Dialog(this, android.R.style.Theme_Translucent_NoTitleBar_Fullscreen);
+
         login.setOnClickListener(new View.OnClickListener(){
+            @Override
             public void onClick(View view){
-                Intent main = new Intent(view.getContext(),MainActivity.class);
-                startActivityForResult(main, 0);
+                anmeldeDialog.setContentView(R.layout.login);
+                anmeldeDialog.show();
             }
         });
 
