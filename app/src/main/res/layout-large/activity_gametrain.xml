@@ -94,7 +94,7 @@
             android:layout_height="fill_parent">
 
             <Button
-                android:background="@color/white"
+                android:background="@color/used"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:text="Kategorie6"
