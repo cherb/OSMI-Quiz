@@ -365,7 +365,7 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="80dp"
         android:layout_height="40dp"
-        android:background="@color/richtig"
+        android:background="@color/wright"
         android:id="@+id/question1"
         android:layout_below="@+id/tableLayout2"/>
 
@@ -374,7 +374,7 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="80dp"
         android:layout_height="40dp"
-        android:background="@color/falsch"
+        android:background="@color/wrong"
         android:id="@+id/question2"
         android:layout_below="@+id/question1"
         android:layout_alignParentLeft="true"
